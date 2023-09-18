@@ -58,18 +58,13 @@ Log in with the superuser account to access the admin panel at http://localhost:
 The app provides the following API endpoints:
 
 GET /api/weather/: Retrieve a list of weather data.
+
 POST /api/weather/: Create a new weather data entry.
+
 You can access these endpoints by making HTTP requests.
 
 ## Configuration
 API Key: To fetch weather data, you need to configure your AccuWeather API key in the settings.py file. Set the WEATHER_API_KEY variable with your API key.
-Contributing
-If you'd like to contribute to this project, please follow these steps:
 
-Fork the repository.
-Create a new branch for your feature or bug fix: git checkout -b feature/new-feature.
-Make your changes and commit them: git commit -m 'Add new feature'.
-Push your branch to your fork: git push origin feature/new-feature.
-Create a pull request on the original repository.
 
 
